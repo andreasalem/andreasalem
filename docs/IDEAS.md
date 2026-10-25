@@ -6,8 +6,10 @@ anything here that is private to a project, a lab, or a dataset.
 
 ## Already here
 - `README.md`: the profile page.
-- `.github/workflows/snake.yml`: redraws the snake daily into the `output`
-  branch. Run it by hand from the Actions tab after changing it.
+- `assets/chicago-skyline.svg`: the animated banner. One 30 s day over Lake
+  Michigan: sunrise over the lake, office lights at dusk, Navy Pier's wheel,
+  antenna beacons. Plain SVG with SMIL animation, no scripts (GitHub strips
+  those). The colours by hour sit in the `values` lists, keyed by `keyTimes`.
 
 ## Ideas for later
 - **Pinned work**: a short "Research" section linking papers, the PES
@@ -23,5 +25,6 @@ anything here that is private to a project, a lab, or a dataset.
 - **Talks / CV**: a PDF CV or slides, linked from the README.
 
 ## Notes
-- The snake reads the public contribution graph. Private-repo work counts only
-  if "Include private contributions on my profile" is on in GitHub settings.
+- The contribution snake (Platane/snk) was tried and replaced by the skyline on
+  2026-10-24; its workflow is in git history and its images on the `output`
+  branch.
